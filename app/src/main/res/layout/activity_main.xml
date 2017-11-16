@@ -1,0 +1,43 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+      <ImageView
+          android:src="@drawable/udacity2"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:scaleType="centerCrop"
+          android:layout_marginBottom="40dp" />
+      <TextView
+        android:text="Udacity"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+      <TextView
+        android:text="2465 Latham St"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+      <TextView
+        android:text="Mountain View, CA 94043"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+      <TextView
+        android:text="650-555-5555"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+  </LinearLayout>
+</ScrollView>
